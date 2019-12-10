@@ -58,12 +58,12 @@ public class CameraTracking_angleTrack : MonoBehaviour
                 dist = 10;
             }
 
-            if(Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.JoystickButton4))
+            if(Input.GetKeyDown(KeyCode.Q))
             {
                 x += 90.0f;
             }
 
-            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.JoystickButton5))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 x -= 90.0f;
             }
