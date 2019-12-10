@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 601220358}
   - component: {fileID: 601220357}
   m_Layer: 0
-  m_Name: Player_col (1)
+  m_Name: 'Player2_col '
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -480,12 +480,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angletype: 0
-  Hitbox: {fileID: 1359186824}
   speed: 8
   force: 500
   jumpcount: 2
   rotspeed: 5
   angle: 90
+  PlayerNumber: 0
 --- !u!136 &601220359
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 666359601}
   - component: {fileID: 666359600}
   m_Layer: 0
-  m_Name: Player_col (2)
+  m_Name: Player3_col
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,12 +573,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angletype: 0
-  Hitbox: {fileID: 2002784657}
   speed: 8
   force: 500
   jumpcount: 2
   rotspeed: 5
   angle: 90
+  PlayerNumber: 0
 --- !u!136 &666359602
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -880,7 +880,7 @@ GameObject:
   - component: {fileID: 1156680019}
   - component: {fileID: 1156680018}
   m_Layer: 0
-  m_Name: Player_col
+  m_Name: Player1_col
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,12 +915,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angletype: 0
-  Hitbox: {fileID: 1998148646}
   speed: 8
   force: 500
   jumpcount: 2
   rotspeed: 5
   angle: 90
+  PlayerNumber: 1
 --- !u!136 &1156680020
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1654,7 +1654,7 @@ GameObject:
   - component: {fileID: 1850040147}
   - component: {fileID: 1850040146}
   m_Layer: 0
-  m_Name: Player_col (3)
+  m_Name: 'Player4_col '
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1705,12 +1705,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angletype: 0
-  Hitbox: {fileID: 1338388128}
   speed: 8
   force: 500
   jumpcount: 2
   rotspeed: 5
   angle: 90
+  PlayerNumber: 0
 --- !u!136 &1850040148
 CapsuleCollider:
   m_ObjectHideFlags: 0
